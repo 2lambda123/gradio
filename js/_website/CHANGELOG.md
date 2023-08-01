@@ -1,5 +1,11 @@
 # website
 
+## 0.0.3
+
+### Fixes
+
+- [#5037](https://github.com/gradio-app/gradio/pull/5037) [`42488c07`](https://github.com/gradio-app/gradio/commit/42488c076aaf3ac2302b27760773a87f5b6ecc41) - Correct gradio version on website. Thanks [@aliabd](https://github.com/aliabd)!
+
 ## 0.0.2
 
 ### Features

@@ -1,5 +1,11 @@
 # @gradio/client
 
+## 0.2.0
+
+### Features
+
+- [#5035](https://github.com/gradio-app/gradio/pull/5035) [`8b4eb8ca`](https://github.com/gradio-app/gradio/commit/8b4eb8cac9ea07bde31b44e2006ca2b7b5f4de36) - JS Client: Fixes cannot read properties of null (reading 'is_file'). Thanks [@raymondtri](https://github.com/raymondtri)!
+
 ## 0.1.4
 
 ### Patch Changes
