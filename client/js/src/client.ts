@@ -53,6 +53,7 @@ type SubmitReturn = {
 	off: event;
 	cancel: () => Promise<void>;
 	destroy: () => void;
+	finish: () => Promise<unknown>;
 };
 
 const QUEUE_FULL_MSG = "This application is too busy. Keep trying!";
@@ -346,6 +347,17 @@ export function api_factory(fetch_implementation: typeof fetch) {
 				});
 			}
 
+			// function finish(submit: SubmitReturn){
+			// 	return new Promise((res, rej) => {
+			// 		submit.on("status", (status) => {
+			// 				if (status.stage === "error") rej(status);
+			// 				if (status.stage === "complete") {
+			// 					res(submit);
+			// 				}
+			// 			});
+			// 	});
+			// }
+
 			function submit(
 				endpoint: string | number,
 				data: unknown[],
@@ -589,7 +601,23 @@ export function api_factory(fetch_implementation: typeof fetch) {
 					narrowed_listener_map[eventType] = listeners;
 					listeners?.push(listener);
 
-					return { on, off, cancel, destroy };
+					return { on, off, cancel, destroy, finish };
+				}
+
+				async function finish() {
+					return new Promise((res, rej) => {
+						const eventType = "status";
+						const fn = (status) => {
+							if (status.stage === "error") rej(status);
+							if (status.stage === "complete") {
+								res(true);
+							}
+						};
+						const narrowed_listener_map = listener_map;
+						const listeners = narrowed_listener_map[eventType] || [];
+						narrowed_listener_map[eventType] = listeners;
+						listeners?.push(fn);
+					});
 				}
 
 				function off<K extends EventType>(
@@ -601,7 +629,7 @@ export function api_factory(fetch_implementation: typeof fetch) {
 					listeners = listeners?.filter((l) => l !== listener);
 					narrowed_listener_map[eventType] = listeners;
 
-					return { on, off, cancel, destroy };
+					return { on, off, cancel, destroy, finish };
 				}
 
 				async function cancel() {
@@ -654,7 +682,8 @@ export function api_factory(fetch_implementation: typeof fetch) {
 					on,
 					off,
 					cancel,
-					destroy
+					destroy,
+					finish
 				};
 			}
 
