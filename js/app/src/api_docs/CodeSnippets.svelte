@@ -37,6 +37,22 @@
 			serializer: string;
 		}) => blob_components.includes(param.component)
 	);
+	let submit_line: string;
+	let return_line: string;
+	$: if (dependency.types.generator) {
+		submit_line = `# This api route streams outputs
+result = client.submit(`;
+		return_line = `)
+result.wait(timeout=None)
+
+# Get the final output. outputs() returns a list of all streamed results.
+print(result.outputs()[-1])
+	`;
+	} else {
+		submit_line = `result = client.predict(`;
+		return_line = `)
+print(result)`;
+	}
 </script>
 
 <div class="container">
@@ -55,7 +71,7 @@
 					<pre>from gradio_client import Client
 
 client = Client(<span class="token string">"{root}"</span>)
-result = client.predict(<!--
+{submit_line}<!--
 -->{#each endpoint_parameters as { label, type, python_type, component, example_input, serializer }, i}<!--
         -->
 				<span
@@ -81,8 +97,7 @@ result = client.predict(<!--
 						{:else}
 							fn_index={dependency_index}
 						{/if}
-)
-print(result)</pre>
+{return_line}</pre>
 				</div>
 			{:else if current_language === "javascript"}
 				<div class="copy">
