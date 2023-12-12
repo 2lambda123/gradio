@@ -292,7 +292,7 @@ scikit-image==0.19.3
     # via -r requirements.in
 scikit-learn==1.0.2
     # via shap
-scipy==1.7.3
+scipy==1.10.0
     # via
     #   mlflow
     #   scikit-image
