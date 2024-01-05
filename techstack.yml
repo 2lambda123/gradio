@@ -2,11 +2,11 @@ repo_name: 2lambda123/gradio
 report_id: c6bef0344dbbb59e511490b553b5192b
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-29T20:34:04+00:00'
+timestamp: '2024-01-05T08:15:09+00:00'
 requested_by: 2lambda123
 provider: github
 branch: master
-detected_tools_count: 160
+detected_tools_count: 162
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: Jinja
   description: Full featured template engine for Python
@@ -50,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -60,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -69,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-03-23 15:19:12.000000000 Z
@@ -82,6 +87,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ali Abid
   last_updated_on: 2021-08-17 18:42:30.000000000 Z
@@ -93,6 +99,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/Echocardiogram-Segmentation/requirements.txt
   detection_source: demo/Echocardiogram-Segmentation/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-10-14 21:07:26.000000000 Z
@@ -105,6 +112,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-02-01 13:45:55.000000000 Z
@@ -130,6 +138,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-07-21 18:12:46.000000000 Z
@@ -142,6 +151,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-07-21 18:12:46.000000000 Z
@@ -167,6 +177,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: pngwn
   last_updated_on: 2022-04-27 01:05:50.000000000 Z
@@ -178,6 +189,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/codecov.yml
   detection_source: codecov.yml
   last_updated_by: Abubakar Abid
   last_updated_on: 2021-12-23 13:41:19.000000000 Z
@@ -190,6 +202,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -199,6 +212,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -208,6 +222,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/.github/workflows/build-pr.yml
   detection_source: ".github/workflows/build-pr.yml"
   last_updated_by: Freddy Boulton
   last_updated_on: 2023-01-03 19:24:01.000000000 Z
@@ -220,6 +235,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/website/homepage/nginx.conf
   detection_source: website/homepage/nginx.conf
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -233,6 +249,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-10-12 16:30:42.000000000 Z
@@ -258,6 +275,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/website/homepage/requirements.txt
   detection_source: website/homepage/requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -270,6 +288,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-02-01 13:45:55.000000000 Z
@@ -282,6 +301,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/9899/xgboost400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/xgboost-income-prediction-with-explainability/requirements.txt
   detection_source: demo/xgboost-income-prediction-with-explainability/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-09-15 15:24:10.000000000 Z
@@ -293,6 +313,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-02-01 13:45:55.000000000 Z
@@ -318,6 +339,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/color_generator/requirements.txt
   detection_source: demo/color_generator/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-10-14 21:07:26.000000000 Z
@@ -329,6 +351,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/animeganv2/requirements.txt
   detection_source: demo/animeganv2/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-09-15 15:24:10.000000000 Z
@@ -340,6 +363,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-07-19 14:48:46.000000000 Z
@@ -351,6 +375,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Game Development
   image_url: https://img.stackshare.io/service/7348/jelqfJeI_200x200.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Dawood Khan
   last_updated_on: 2022-08-03 21:03:01.000000000 Z
@@ -363,6 +388,7 @@ tools:
   category: Application Utilities
   sub_category: Speech Recognition Tools
   image_url: https://img.stackshare.io/service/39905/default_3e96856f11560e6b1af7abf2c646c9a71d87b356.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/streaming_stt/requirements.txt
   detection_source: demo/streaming_stt/requirements.txt
   last_updated_by: Radamés Ajna
   last_updated_on: 2022-05-14 05:45:44.000000000 Z
@@ -374,6 +400,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-11-14 19:31:03.000000000 Z
@@ -414,6 +441,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/gradio
   detection_source: Repo Metadata
 - name: Sirv
   description: Revolutionary image hosting, optimization and delivery
@@ -421,6 +449,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7329/yZ2B2IF1_normal.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: pngwn
   last_updated_on: 2022-02-01 13:45:55.000000000 Z
@@ -433,6 +462,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/digit_classifier/requirements.txt
   detection_source: demo/digit_classifier/requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -445,6 +475,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/Echocardiogram-Segmentation/requirements.txt
   detection_source: demo/Echocardiogram-Segmentation/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-10-14 21:07:26.000000000 Z
@@ -465,6 +496,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/website/homepage/package.json
   detection_source: website/homepage/package.json
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -476,6 +508,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Game Development
   image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/ui/package.json
   detection_source: ui/package.json
   last_updated_by: dawoodkhan82
   last_updated_on: 2022-03-04 02:23:34.000000000 Z
@@ -488,6 +521,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20183/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2023-01-16 03:54:09.000000000 Z
@@ -500,6 +534,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Halil Ibrahim Bestil
   last_updated_on: 2022-06-23 17:44:04.000000000 Z
@@ -611,6 +646,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20175/default_b59452f5365a0e677c38da18021b9d6569ac0da7.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/outbreak_forecast/requirements.txt
   detection_source: demo/outbreak_forecast/requirements.txt
   last_updated_by: Dawood Khan
   last_updated_on: 2022-04-14 21:45:31.000000000 Z
@@ -825,6 +861,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-07-04 13:57:12.000000000 Z
@@ -837,6 +874,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20650/default_422cfa802834b2f78f74508cdc2c26b9544a79eb.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/stable-diffusion/requirements.txt
   detection_source: demo/stable-diffusion/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-09-15 15:24:10.000000000 Z
@@ -849,6 +887,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/animeganv2/requirements.txt
   detection_source: demo/animeganv2/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-09-15 15:24:10.000000000 Z
@@ -1104,6 +1143,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20473/default_800512522a1f8bb3ddeb015413c72f7409eb0719.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/website/homepage/requirements.txt
   detection_source: website/homepage/requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -1180,15 +1220,9 @@ tools:
     detected_date: Nov 18
     severity: critical
     first_patched: 
-  - name: mlflow Command Injection vulnerability
-    cve_id: CVE-2023-6940
-    cve_url: https://github.com/advisories/GHSA-hvc6-42vf-jhf8
-    detected_date: Dec 20
-    severity: critical
-    first_patched: 2.9.2
-  - name: MLflow Local File Disclosure Vulnerability
-    cve_id: CVE-2023-6977
-    cve_url: https://github.com/advisories/GHSA-qg8p-32gr-gh6x
+  - name: MLflow Server-Side Request Forgery (SSRF)
+    cve_id: CVE-2023-6974
+    cve_url: https://github.com/advisories/GHSA-59v3-898r-qwhj
     detected_date: Dec 21
     severity: critical
     first_patched: 2.9.2
@@ -1216,10 +1250,22 @@ tools:
     detected_date: Dec 21
     severity: high
     first_patched: 2.9.2
-  - name: MLflow Server-Side Request Forgery (SSRF)
-    cve_id: CVE-2023-6974
-    cve_url: https://github.com/advisories/GHSA-59v3-898r-qwhj
+  - name: MLflow Path Traversal Vulnerability
+    cve_id: CVE-2023-6976
+    cve_url: https://github.com/advisories/GHSA-wv8q-4f85-2p8p
     detected_date: Dec 21
+    severity: high
+    first_patched: 2.9.2
+  - name: MLflow Local File Disclosure Vulnerability
+    cve_id: CVE-2023-6977
+    cve_url: https://github.com/advisories/GHSA-qg8p-32gr-gh6x
+    detected_date: Dec 21
+    severity: high
+    first_patched: 2.9.2
+  - name: mlflow Command Injection vulnerability
+    cve_id: CVE-2023-6940
+    cve_url: https://github.com/advisories/GHSA-hvc6-42vf-jhf8
+    detected_date: Dec 20
     severity: high
     first_patched: 2.9.2
   - name: mflow vulnerable to directory traversal
@@ -1240,24 +1286,18 @@ tools:
     detected_date: Dec 14
     severity: high
     first_patched: 2.9.2
-  - name: MLflow Path Traversal Vulnerability
-    cve_id: CVE-2023-6976
-    cve_url: https://github.com/advisories/GHSA-wv8q-4f85-2p8p
-    detected_date: Dec 21
-    severity: high
-    first_patched: 2.9.2
-  - name: Path traversal in MLflow
-    cve_id: CVE-2023-6753
-    cve_url: https://github.com/advisories/GHSA-v945-r3rc-6fjm
-    detected_date: Dec 14
-    severity: high
-    first_patched: 2.9.2
   - name: mlflow vulnerable to OS Command Injection
     cve_id: CVE-2023-4033
     cve_url: https://github.com/advisories/GHSA-ffw3-6378-cqgp
     detected_date: Aug 2
     severity: high
     first_patched: 2.6.0
+  - name: Path traversal in MLflow
+    cve_id: CVE-2023-6753
+    cve_url: https://github.com/advisories/GHSA-v945-r3rc-6fjm
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.9.2
   - name: Cross-site Scripting in MLflow
     cve_id: CVE-2023-6568
     cve_url: https://github.com/advisories/GHSA-vwhf-3v6x-wff8
@@ -1294,6 +1334,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/sentiment_analysis/requirements.txt
   detection_source: demo/sentiment_analysis/requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -1341,6 +1382,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/color_generator/requirements.txt
   detection_source: demo/color_generator/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-10-14 21:07:26.000000000 Z
@@ -1451,6 +1493,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20062/default_7d86b2789b7e98a881e37db483c09c6a1aa3e995.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/blocks_multiple_event_triggers/requirements.txt
   detection_source: demo/blocks_multiple_event_triggers/requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-11-02 21:47:53.000000000 Z
@@ -1533,6 +1576,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/chicago-bikeshare-dashboard/requirements.txt
   detection_source: demo/chicago-bikeshare-dashboard/requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-11-04 20:31:08.000000000 Z
@@ -1594,6 +1638,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19900/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ali Abid
   last_updated_on: 2021-08-17 18:42:30.000000000 Z
@@ -1620,6 +1665,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ali Abid
   last_updated_on: 2022-02-17 21:29:08.000000000 Z
@@ -1899,6 +1945,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/text_analysis/requirements.txt
   detection_source: demo/text_analysis/requirements.txt
   last_updated_by: aliabid94
   last_updated_on: 2021-12-14 06:02:19.000000000 Z
@@ -2098,6 +2145,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Abubakar Abid
   last_updated_on: 2022-01-04 18:27:21.000000000 Z
@@ -2129,6 +2177,20 @@ tools:
   detection_source: test/requirements.txt
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-07-19 14:48:46.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: '10.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: GLGDLY
+  last_updated_on: 2022-11-04 20:53:23.000000000 Z
 - name: wget
   description: Pure python download utility
   package_url: https://pypi.org/project/wget
@@ -2138,6 +2200,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/demo/Echocardiogram-Segmentation/requirements.txt
   detection_source: demo/Echocardiogram-Segmentation/requirements.txt
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-10-14 21:07:26.000000000 Z
@@ -2197,6 +2260,20 @@ tools:
   detection_source: website/homepage/package.json
   last_updated_by: Ali Abdalla
   last_updated_on: 2022-11-08 12:02:05.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 5.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/2lambda123/gradio/blob/master/website/homepage/package-lock.json
+  detection_source: website/homepage/package.json
+  last_updated_by: aliabid94
+  last_updated_on: 2021-12-14 06:02:19.000000000 Z
 - name: d3-scale
   description: Encodings that map abstract data to visual representation
   package_url: https://www.npmjs.com/d3-scale
