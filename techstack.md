@@ -90,7 +90,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/gradio](https://github.com/2lambda123/gradio)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|160<br/>Tools used|12/29/23 <br/>Report generated|
+|162<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -457,9 +457,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (119)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (121)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (108)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (109)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -508,7 +508,7 @@ Full tech stack [here](/techstack.md)
 |[llvmlite](https://pypi.org/project/llvmlite)|v0.38.1|07/19/22|Freddy Boulton |BSD-2-Clause|N/A|
 |[markdown2](https://pypi.org/project/markdown2)|N/A|12/14/21|aliabid94 |MIT|N/A|
 |[mccabe](https://pypi.org/project/mccabe)|v0.6.1|02/09/22|Ömer Faruk Özdemir |Saxpath|N/A|
-|[mlflow](https://pypi.org/project/mlflow)|v1.27.0|12/02/22|Freddy Boulton |Apache-2.0|[CVE-2023-1177](https://github.com/advisories/GHSA-xg73-94fp-g449) (Critical)<br/>[CVE-2023-2780](https://github.com/advisories/GHSA-wjq3-7jxx-whj9) (Critical)<br/>[CVE-2023-6831](https://github.com/advisories/GHSA-554w-xh4j-8w64) (Critical)<br/>[](https://github.com/advisories/GHSA-83fm-w79m-64r5) (Critical)<br/>[CVE-2023-2356](https://github.com/advisories/GHSA-x422-6qhv-p29g) (Critical)<br/>[CVE-2023-3765](https://github.com/advisories/GHSA-fmxj-6h9g-6vw3) (Critical)<br/>[CVE-2023-6014](https://github.com/advisories/GHSA-4qq5-mxxx-m6gg) (Critical)<br/>[CVE-2023-6940](https://github.com/advisories/GHSA-hvc6-42vf-jhf8) (Critical)<br/>[CVE-2023-6977](https://github.com/advisories/GHSA-qg8p-32gr-gh6x) (Critical)<br/>[CVE-2023-6975](https://github.com/advisories/GHSA-hh8p-p8mp-gqhm) (Critical)<br/>[CVE-2023-6015](https://github.com/advisories/GHSA-f798-qm4r-23r5) (Critical)<br/>[CVE-2023-6018](https://github.com/advisories/GHSA-5p3h-7fwh-92rc) (Critical)<br/>[CVE-2023-6909](https://github.com/advisories/GHSA-5r3q-93q3-f978) (High)<br/>[CVE-2023-6974](https://github.com/advisories/GHSA-59v3-898r-qwhj) (High)<br/>[CVE-2023-30172](https://github.com/advisories/GHSA-wc6j-5g83-xfm6) (High)<br/>[CVE-2023-43472](https://github.com/advisories/GHSA-wqxf-447m-6f5f) (High)<br/>[CVE-2023-6709](https://github.com/advisories/GHSA-cxfr-5q3r-2rc2) (High)<br/>[CVE-2023-6976](https://github.com/advisories/GHSA-wv8q-4f85-2p8p) (High)<br/>[CVE-2023-6753](https://github.com/advisories/GHSA-v945-r3rc-6fjm) (High)<br/>[CVE-2023-4033](https://github.com/advisories/GHSA-ffw3-6378-cqgp) (High)<br/>[CVE-2023-6568](https://github.com/advisories/GHSA-vwhf-3v6x-wff8) (Moderate)<br/>[CVE-2023-1176](https://github.com/advisories/GHSA-wp72-7hj9-5265) (Low)|
+|[mlflow](https://pypi.org/project/mlflow)|v1.27.0|12/02/22|Freddy Boulton |Apache-2.0|[CVE-2023-1177](https://github.com/advisories/GHSA-xg73-94fp-g449) (Critical)<br/>[CVE-2023-2780](https://github.com/advisories/GHSA-wjq3-7jxx-whj9) (Critical)<br/>[CVE-2023-6831](https://github.com/advisories/GHSA-554w-xh4j-8w64) (Critical)<br/>[](https://github.com/advisories/GHSA-83fm-w79m-64r5) (Critical)<br/>[CVE-2023-2356](https://github.com/advisories/GHSA-x422-6qhv-p29g) (Critical)<br/>[CVE-2023-3765](https://github.com/advisories/GHSA-fmxj-6h9g-6vw3) (Critical)<br/>[CVE-2023-6014](https://github.com/advisories/GHSA-4qq5-mxxx-m6gg) (Critical)<br/>[CVE-2023-6974](https://github.com/advisories/GHSA-59v3-898r-qwhj) (Critical)<br/>[CVE-2023-6975](https://github.com/advisories/GHSA-hh8p-p8mp-gqhm) (Critical)<br/>[CVE-2023-6015](https://github.com/advisories/GHSA-f798-qm4r-23r5) (Critical)<br/>[CVE-2023-6018](https://github.com/advisories/GHSA-5p3h-7fwh-92rc) (Critical)<br/>[CVE-2023-6909](https://github.com/advisories/GHSA-5r3q-93q3-f978) (High)<br/>[CVE-2023-6976](https://github.com/advisories/GHSA-wv8q-4f85-2p8p) (High)<br/>[CVE-2023-6977](https://github.com/advisories/GHSA-qg8p-32gr-gh6x) (High)<br/>[CVE-2023-6940](https://github.com/advisories/GHSA-hvc6-42vf-jhf8) (High)<br/>[CVE-2023-30172](https://github.com/advisories/GHSA-wc6j-5g83-xfm6) (High)<br/>[CVE-2023-43472](https://github.com/advisories/GHSA-wqxf-447m-6f5f) (High)<br/>[CVE-2023-6709](https://github.com/advisories/GHSA-cxfr-5q3r-2rc2) (High)<br/>[CVE-2023-4033](https://github.com/advisories/GHSA-ffw3-6378-cqgp) (High)<br/>[CVE-2023-6753](https://github.com/advisories/GHSA-v945-r3rc-6fjm) (High)<br/>[CVE-2023-6568](https://github.com/advisories/GHSA-vwhf-3v6x-wff8) (Moderate)<br/>[CVE-2023-1176](https://github.com/advisories/GHSA-wp72-7hj9-5265) (Low)|
 |[networkx](https://pypi.org/project/networkx)|v2.6.3|01/24/22|Ömer Faruk Özdemir |BSD-3-Clause|N/A|
 |[nltk](https://pypi.org/project/nltk)|N/A|12/14/21|aliabid94 |Apache-2.0|N/A|
 |[numba](https://pypi.org/project/numba)|v0.55.2|07/19/22|Freddy Boulton |BSD-3-Clause|N/A|
@@ -567,17 +567,19 @@ Full tech stack [here](/techstack.md)
 |[uvicorn](https://pypi.org/project/uvicorn)|N/A|01/04/22|Abubakar Abid |BSD-3-Clause|N/A|
 |[wcwidth](https://pypi.org/project/wcwidth)|v0.2.5|01/24/22|Ömer Faruk Özdemir |MIT|N/A|
 |[websocket-client](https://pypi.org/project/websocket-client)|v1.3.3|07/19/22|Freddy Boulton |Apache-2.0|N/A|
+|[websockets](https://pypi.org/project/websockets)|v10.0|11/04/22|GLGDLY |BSD-3-Clause|N/A|
 |[wget](https://pypi.org/project/wget)|N/A|10/14/22|Ali Abdalla |Unlicense|N/A|
 |[wrapt](https://pypi.org/project/wrapt)|v1.14.1|07/19/22|Freddy Boulton |BSD-2-Clause|N/A|
 |[wurlitzer](https://pypi.org/project/wurlitzer)|v3.0.2|01/24/22|Ömer Faruk Özdemir |MIT|N/A|
 |[zipp](https://pypi.org/project/zipp)|v3.8.1|07/19/22|Freddy Boulton |MIT|N/A|
 
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (11)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (12)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[@tailwindcss/typography](https://www.npmjs.com/@tailwindcss/typography)|v0.5.4|11/08/22|Ali Abdalla |N/A|N/A|
+|[cssnano](https://www.npmjs.com/cssnano)|v5.1.12|12/14/21|aliabid94 |MIT|N/A|
 |[d3-scale](https://www.npmjs.com/d3-scale)|v4.0.2|03/11/22|pngwn |ISC|N/A|
 |[d3-shape](https://www.npmjs.com/d3-shape)|v3.1.0|03/11/22|pngwn |ISC|N/A|
 |[mime-types](https://www.npmjs.com/mime-types)|v2.1.34|02/01/22|pngwn |MIT|N/A|
