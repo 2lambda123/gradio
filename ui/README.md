@@ -76,7 +76,7 @@ pnpm format:check
 If you have formatting failures then you can run the following command to fix them:
 
 ```bash
-pnpm format:write
+prettier --write .
 ```
 
 ### type checking
