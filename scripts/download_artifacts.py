@@ -1,5 +1,6 @@
 import argparse
 import requests
+import requests
 
 WORKFLOW_RUN_ENDPOINT = "https://api.github.com/repos/{owner}/{repo}/actions/runs/{run_id}/artifacts"
 ARTIFACT_DOWNLOAD_ENDPOINT = "https://api.github.com/repos/{owner}/{repo}/actions/artifacts/{artifact_id}/zip"
@@ -28,7 +29,7 @@ def download_artifact(
     ).json()
     artifact_id = next((artifact['id'] for artifact in artifacts['artifacts'] if artifact['name'] == artifact_name), None)
 
-    if not artifact_id:
+    if artifact_id is None:
         raise ValueError(f"Cannot find {artifact_name}! {artifacts} {owner} {repo} {run_id}")
 
     download = requests.get(
