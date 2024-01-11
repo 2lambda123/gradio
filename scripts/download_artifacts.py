@@ -44,12 +44,12 @@ def download_artifact(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download an artifact")
-    parser.add_argument("run_id", type=str, help="Run id")
-    parser.add_argument("artifact_name", type=str)
-    parser.add_argument("gh_token", type=str)
-    parser.add_argument("--owner", type=str, help="Owner of repository", default="gradio-app")
+    parser.add_argument("run_id", type=str, help="Run id of the action run that created the artifact")
+    parser.add_argument("artifact_name", type=str, help="Name of the artifact to download")
+    parser.add_argument("gh_token", type=str, help="The token used to download artifacts")
+    parser.add_argument("--owner", type=str, help="Owner of the repository", default="gradio-app")
     parser.add_argument(
-        "--repo", type=str, help="Name of repository", default="gradio"
+        "--repo", type=str, help="Name of the repository", default="gradio"
     )
     args = parser.parse_args()
     new_space = download_artifact(
