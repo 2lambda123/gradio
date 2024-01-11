@@ -72,7 +72,7 @@ It's helpful to know the overall structure of the repository so that you can foc
 
 ### Continuous Integration and Testing
 
-All PRs must pass the continuous integration tests before merging. To test locally, you can run `python -m unittest` from the repo directory.
+All PRs must pass the continuous integration tests before merging. To test locally, you can run `pytest` from the repo directory.
 
 ## Submitting PRs
 
