@@ -68,7 +68,7 @@ everett[ini]==3.0.0
     # via
     #   comet-ml
     #   everett
-fastapi==0.87.0
+fastapi==0.109.1
     # via -r requirements.in
 filelock==3.7.1
     # via
@@ -340,7 +340,7 @@ sqlalchemy==1.4.39
     #   mlflow
 sqlparse==0.4.2
     # via mlflow
-starlette==0.21.0
+starlette==0.35.1
     # via fastapi
 tabulate==0.8.10
     # via databricks-cli
@@ -371,9 +371,10 @@ traitlets==5.3.0
     #   matplotlib-inline
 transformers==4.36.0
     # via -r requirements.in
-typing-extensions==4.3.0
+typing-extensions==4.9.0
     # via
     #   black
+    #   fastapi
     #   huggingface-hub
     #   pydantic
     #   starlette
