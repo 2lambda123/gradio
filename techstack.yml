@@ -2,7 +2,7 @@ repo_name: 2lambda123/gradio
 report_id: c6bef0344dbbb59e511490b553b5192b
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:15:09+00:00'
+timestamp: '2024-02-29T19:18:31+00:00'
 requested_by: 2lambda123
 provider: github
 branch: master
@@ -254,7 +254,7 @@ tools:
   last_updated_by: pngwn
   last_updated_on: 2022-10-12 16:30:42.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.5.1
   license: MIT
@@ -368,7 +368,7 @@ tools:
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-07-19 14:48:46.000000000 Z
 - name: BabylonJS
-  description: 'A real time 3D engine '
+  description: A real time 3D engine
   website_url: https://www.babylonjs.com/
   open_source: true
   hosted_saas: false
@@ -1183,30 +1183,6 @@ tools:
     detected_date: Mar 25
     severity: critical
     first_patched: 2.2.1
-  - name: mlflow Path Traversal vulnerability
-    cve_id: CVE-2023-2780
-    cve_url: https://github.com/advisories/GHSA-wjq3-7jxx-whj9
-    detected_date: May 18
-    severity: critical
-    first_patched: 2.3.0
-  - name: Path traversal in MLflow
-    cve_id: CVE-2023-6831
-    cve_url: https://github.com/advisories/GHSA-554w-xh4j-8w64
-    detected_date: Dec 16
-    severity: critical
-    first_patched: 2.9.2
-  - name: Remote file access vulnerability in `mlflow server` and `mlflow ui` CLIs
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-83fm-w79m-64r5
-    detected_date: May 2
-    severity: critical
-    first_patched: 2.3.1
-  - name: Relative path traversal in mlflow
-    cve_id: CVE-2023-2356
-    cve_url: https://github.com/advisories/GHSA-x422-6qhv-p29g
-    detected_date: May 2
-    severity: critical
-    first_patched: 2.3.1
   - name: MLflow Path Traversal vulnerability
     cve_id: CVE-2023-3765
     cve_url: https://github.com/advisories/GHSA-fmxj-6h9g-6vw3
@@ -1220,12 +1196,42 @@ tools:
     detected_date: Nov 18
     severity: critical
     first_patched: 
+  - name: Remote Code Execution due to Full Controled File Write in mlflow
+    cve_id: CVE-2023-6018
+    cve_url: https://github.com/advisories/GHSA-5p3h-7fwh-92rc
+    detected_date: Nov 29
+    severity: critical
+    first_patched: 
+  - name: Path traversal in MLflow
+    cve_id: CVE-2023-6831
+    cve_url: https://github.com/advisories/GHSA-554w-xh4j-8w64
+    detected_date: Dec 16
+    severity: critical
+    first_patched: 2.9.2
+  - name: mlflow Path Traversal vulnerability
+    cve_id: CVE-2023-2780
+    cve_url: https://github.com/advisories/GHSA-wjq3-7jxx-whj9
+    detected_date: May 18
+    severity: critical
+    first_patched: 2.3.0
+  - name: Remote file access vulnerability in `mlflow server` and `mlflow ui` CLIs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-83fm-w79m-64r5
+    detected_date: May 2
+    severity: critical
+    first_patched: 2.3.1
   - name: MLflow Server-Side Request Forgery (SSRF)
     cve_id: CVE-2023-6974
     cve_url: https://github.com/advisories/GHSA-59v3-898r-qwhj
     detected_date: Dec 21
     severity: critical
     first_patched: 2.9.2
+  - name: Relative path traversal in mlflow
+    cve_id: CVE-2023-2356
+    cve_url: https://github.com/advisories/GHSA-x422-6qhv-p29g
+    detected_date: May 2
+    severity: critical
+    first_patched: 2.3.1
   - name: MLFlow Path Traversal Vulnerability
     cve_id: CVE-2023-6975
     cve_url: https://github.com/advisories/GHSA-hh8p-p8mp-gqhm
@@ -1238,42 +1244,25 @@ tools:
     detected_date: Nov 17
     severity: critical
     first_patched: 2.8.1
-  - name: Remote Code Execution due to Full Controled File Write in mlflow
-    cve_id: CVE-2023-6018
-    cve_url: https://github.com/advisories/GHSA-5p3h-7fwh-92rc
-    detected_date: Nov 29
-    severity: critical
-    first_patched: 
-  - name: MLflow Path Traversal Vulnerability
-    cve_id: CVE-2023-6909
-    cve_url: https://github.com/advisories/GHSA-5r3q-93q3-f978
-    detected_date: Dec 21
-    severity: high
-    first_patched: 2.9.2
-  - name: MLflow Path Traversal Vulnerability
-    cve_id: CVE-2023-6976
-    cve_url: https://github.com/advisories/GHSA-wv8q-4f85-2p8p
-    detected_date: Dec 21
-    severity: high
-    first_patched: 2.9.2
   - name: MLflow Local File Disclosure Vulnerability
     cve_id: CVE-2023-6977
     cve_url: https://github.com/advisories/GHSA-qg8p-32gr-gh6x
     detected_date: Dec 21
     severity: high
     first_patched: 2.9.2
-  - name: mlflow Command Injection vulnerability
-    cve_id: CVE-2023-6940
-    cve_url: https://github.com/advisories/GHSA-hvc6-42vf-jhf8
-    detected_date: Dec 20
+  - name: Cross-site Scripting in MLFlow
+    cve_id: CVE-2024-27132
+    cve_url: https://github.com/advisories/GHSA-6749-m5cp-6cg7
+    detected_date: Feb 27
     severity: high
-    first_patched: 2.9.2
-  - name: mflow vulnerable to directory traversal
-    cve_id: CVE-2023-30172
-    cve_url: https://github.com/advisories/GHSA-wc6j-5g83-xfm6
-    detected_date: May 12
+    first_patched: 2.10.0
+  - name: MLFlow Cross-site Scripting vulnerability leads to client-side Remote Code
+      Execution
+    cve_id: CVE-2024-27133
+    cve_url: https://github.com/advisories/GHSA-3v79-q7ph-j75h
+    detected_date: Feb 28
     severity: high
-    first_patched: 2.0.0rc0
+    first_patched: 2.10.0
   - name: Information exposure in MLflow
     cve_id: CVE-2023-43472
     cve_url: https://github.com/advisories/GHSA-wqxf-447m-6f5f
@@ -1286,16 +1275,40 @@ tools:
     detected_date: Dec 14
     severity: high
     first_patched: 2.9.2
+  - name: Path traversal in MLflow
+    cve_id: CVE-2023-6753
+    cve_url: https://github.com/advisories/GHSA-v945-r3rc-6fjm
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.9.2
+  - name: mflow vulnerable to directory traversal
+    cve_id: CVE-2023-30172
+    cve_url: https://github.com/advisories/GHSA-wc6j-5g83-xfm6
+    detected_date: May 12
+    severity: high
+    first_patched: 2.0.0rc0
   - name: mlflow vulnerable to OS Command Injection
     cve_id: CVE-2023-4033
     cve_url: https://github.com/advisories/GHSA-ffw3-6378-cqgp
     detected_date: Aug 2
     severity: high
     first_patched: 2.6.0
-  - name: Path traversal in MLflow
-    cve_id: CVE-2023-6753
-    cve_url: https://github.com/advisories/GHSA-v945-r3rc-6fjm
-    detected_date: Dec 14
+  - name: mlflow Command Injection vulnerability
+    cve_id: CVE-2023-6940
+    cve_url: https://github.com/advisories/GHSA-hvc6-42vf-jhf8
+    detected_date: Dec 20
+    severity: high
+    first_patched: 2.9.2
+  - name: MLflow Path Traversal Vulnerability
+    cve_id: CVE-2023-6909
+    cve_url: https://github.com/advisories/GHSA-5r3q-93q3-f978
+    detected_date: Dec 21
+    severity: high
+    first_patched: 2.9.2
+  - name: MLflow Path Traversal Vulnerability
+    cve_id: CVE-2023-6976
+    cve_url: https://github.com/advisories/GHSA-wv8q-4f85-2p8p
+    detected_date: Dec 21
     severity: high
     first_patched: 2.9.2
   - name: Cross-site Scripting in MLflow
@@ -1986,6 +1999,18 @@ tools:
   last_updated_by: Freddy Boulton
   last_updated_on: 2022-11-14 19:31:03.000000000 Z
   vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
   - name: 'Duplicate Advisory: Starlette vulnerable to directory traversal'
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-qj8w-rv5x-2v9h
@@ -2414,6 +2439,13 @@ tools:
   last_updated_by: pngwn
   last_updated_on: 2022-06-01 17:02:18.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 2.9.17
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
