@@ -3,40 +3,40 @@
 ## Tech Stack
 2lambda123/gradio is built on the following main stack:
 
-- [CircleCI](https://circleci.com/) – Continuous Integration
-- [Python](https://www.python.org) – Languages
-- [NGINX](http://nginx.org) – Web Servers
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [OpenCV](http://opencv.org/) – Image Processing and Management
-- [scikit-image](http://scikit-image.org/) – Image Processing and Management
-- [TypeScript](http://www.typescriptlang.org) – Languages
-- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
 - [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
-- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- [Codecov](https://codecov.io/) – Code Coverage
+- [Python](https://www.python.org) – Languages
+- [TypeScript](http://www.typescriptlang.org) – Languages
+- [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
-- [SciPy](http://www.scipy.org) – Data Science Tools
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
 - [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Torch](http://torch.ch/) – Machine Learning Tools
-- [IPython](http://ipython.org/index.html) – Shells
+- [Svelte](https://svelte.technology/) – Javascript UI Libraries
+- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- [CircleCI](https://circleci.com/) – Continuous Integration
+- [Codecov](https://codecov.io/) – Code Coverage
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [NGINX](http://nginx.org) – Web Servers
+- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
+- [Prettier](https://prettier.io/) – Code Review
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [XGBoost](https://xgboost.ai/) – Python Build Tools
 - [pytest](http://pytest.org/latest/) – Testing Frameworks
+- [OpenCV](http://opencv.org/) – Image Processing and Management
+- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- [scikit-image](http://scikit-image.org/) – Image Processing and Management
+- [BabylonJS](https://www.babylonjs.com/) – Game Development
+- [Deepspeech](https://github.com/mozilla/DeepSpeech) – Speech Recognition Tools
+- [IPython](http://ipython.org/index.html) – Shells
+- [NumPy](http://www.numpy.org/) – Data Science Tools
+- [SciPy](http://www.scipy.org) – Data Science Tools
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
+- [Torch](http://torch.ch/) – Machine Learning Tools
 - [three.js](https://threejs.org/) – Game Development
-- [Svelte](https://svelte.technology/) – Javascript UI Libraries
-- [Prettier](https://prettier.io/) – Code Review
-- [BabylonJS](https://www.babylonjs.com/) – Game Development
-- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- [XGBoost](https://xgboost.ai/) – Python Build Tools
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
-- [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- [Deepspeech](https://github.com/mozilla/DeepSpeech) – Speech Recognition Tools
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -46,40 +46,40 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/gradio is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1294/897180.png' alt='scikit-image'/> [scikit-image](http://scikit-image.org/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png' alt='IPython'/> [IPython](http://ipython.org/index.html) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/6113/7exmJEg4_400x400.png' alt='Svelte'/> [Svelte](https://svelte.technology/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/9899/xgboost400.png' alt='XGBoost'/> [XGBoost](https://xgboost.ai/) – Python Build Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/1294/897180.png' alt='scikit-image'/> [scikit-image](http://scikit-image.org/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/7348/jelqfJeI_200x200.png' alt='BabylonJS'/> [BabylonJS](https://www.babylonjs.com/) – Game Development
+- <img width='25' height='25' src='https://img.stackshare.io/service/39905/default_3e96856f11560e6b1af7abf2c646c9a71d87b356.png' alt='Deepspeech'/> [Deepspeech](https://github.com/mozilla/DeepSpeech) – Speech Recognition Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png' alt='IPython'/> [IPython](http://ipython.org/index.html) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/4717/FtFnqC38_400x400.png' alt='TensorFlow'/> [TensorFlow](https://www.tensorflow.org) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/5883/preview.png' alt='three.js'/> [three.js](https://threejs.org/) – Game Development
-- <img width='25' height='25' src='https://img.stackshare.io/service/6113/7exmJEg4_400x400.png' alt='Svelte'/> [Svelte](https://svelte.technology/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7348/jelqfJeI_200x200.png' alt='BabylonJS'/> [BabylonJS](https://www.babylonjs.com/) – Game Development
-- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/9899/xgboost400.png' alt='XGBoost'/> [XGBoost](https://xgboost.ai/) – Python Build Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/39905/default_3e96856f11560e6b1af7abf2c646c9a71d87b356.png' alt='Deepspeech'/> [Deepspeech](https://github.com/mozilla/DeepSpeech) – Speech Recognition Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -90,7 +90,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/gradio](https://github.com/2lambda123/gradio)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|162<br/>Tools used|01/05/24 <br/>Report generated|
+|162<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -508,7 +508,7 @@ Full tech stack [here](/techstack.md)
 |[llvmlite](https://pypi.org/project/llvmlite)|v0.38.1|07/19/22|Freddy Boulton |BSD-2-Clause|N/A|
 |[markdown2](https://pypi.org/project/markdown2)|N/A|12/14/21|aliabid94 |MIT|N/A|
 |[mccabe](https://pypi.org/project/mccabe)|v0.6.1|02/09/22|Ömer Faruk Özdemir |Saxpath|N/A|
-|[mlflow](https://pypi.org/project/mlflow)|v1.27.0|12/02/22|Freddy Boulton |Apache-2.0|[CVE-2023-1177](https://github.com/advisories/GHSA-xg73-94fp-g449) (Critical)<br/>[CVE-2023-2780](https://github.com/advisories/GHSA-wjq3-7jxx-whj9) (Critical)<br/>[CVE-2023-6831](https://github.com/advisories/GHSA-554w-xh4j-8w64) (Critical)<br/>[](https://github.com/advisories/GHSA-83fm-w79m-64r5) (Critical)<br/>[CVE-2023-2356](https://github.com/advisories/GHSA-x422-6qhv-p29g) (Critical)<br/>[CVE-2023-3765](https://github.com/advisories/GHSA-fmxj-6h9g-6vw3) (Critical)<br/>[CVE-2023-6014](https://github.com/advisories/GHSA-4qq5-mxxx-m6gg) (Critical)<br/>[CVE-2023-6974](https://github.com/advisories/GHSA-59v3-898r-qwhj) (Critical)<br/>[CVE-2023-6975](https://github.com/advisories/GHSA-hh8p-p8mp-gqhm) (Critical)<br/>[CVE-2023-6015](https://github.com/advisories/GHSA-f798-qm4r-23r5) (Critical)<br/>[CVE-2023-6018](https://github.com/advisories/GHSA-5p3h-7fwh-92rc) (Critical)<br/>[CVE-2023-6909](https://github.com/advisories/GHSA-5r3q-93q3-f978) (High)<br/>[CVE-2023-6976](https://github.com/advisories/GHSA-wv8q-4f85-2p8p) (High)<br/>[CVE-2023-6977](https://github.com/advisories/GHSA-qg8p-32gr-gh6x) (High)<br/>[CVE-2023-6940](https://github.com/advisories/GHSA-hvc6-42vf-jhf8) (High)<br/>[CVE-2023-30172](https://github.com/advisories/GHSA-wc6j-5g83-xfm6) (High)<br/>[CVE-2023-43472](https://github.com/advisories/GHSA-wqxf-447m-6f5f) (High)<br/>[CVE-2023-6709](https://github.com/advisories/GHSA-cxfr-5q3r-2rc2) (High)<br/>[CVE-2023-4033](https://github.com/advisories/GHSA-ffw3-6378-cqgp) (High)<br/>[CVE-2023-6753](https://github.com/advisories/GHSA-v945-r3rc-6fjm) (High)<br/>[CVE-2023-6568](https://github.com/advisories/GHSA-vwhf-3v6x-wff8) (Moderate)<br/>[CVE-2023-1176](https://github.com/advisories/GHSA-wp72-7hj9-5265) (Low)|
+|[mlflow](https://pypi.org/project/mlflow)|v1.27.0|12/02/22|Freddy Boulton |Apache-2.0|[CVE-2023-1177](https://github.com/advisories/GHSA-xg73-94fp-g449) (Critical)<br/>[CVE-2023-3765](https://github.com/advisories/GHSA-fmxj-6h9g-6vw3) (Critical)<br/>[CVE-2023-6014](https://github.com/advisories/GHSA-4qq5-mxxx-m6gg) (Critical)<br/>[CVE-2023-6018](https://github.com/advisories/GHSA-5p3h-7fwh-92rc) (Critical)<br/>[CVE-2023-6831](https://github.com/advisories/GHSA-554w-xh4j-8w64) (Critical)<br/>[CVE-2023-2780](https://github.com/advisories/GHSA-wjq3-7jxx-whj9) (Critical)<br/>[](https://github.com/advisories/GHSA-83fm-w79m-64r5) (Critical)<br/>[CVE-2023-6974](https://github.com/advisories/GHSA-59v3-898r-qwhj) (Critical)<br/>[CVE-2023-2356](https://github.com/advisories/GHSA-x422-6qhv-p29g) (Critical)<br/>[CVE-2023-6975](https://github.com/advisories/GHSA-hh8p-p8mp-gqhm) (Critical)<br/>[CVE-2023-6015](https://github.com/advisories/GHSA-f798-qm4r-23r5) (Critical)<br/>[CVE-2023-6977](https://github.com/advisories/GHSA-qg8p-32gr-gh6x) (High)<br/>[CVE-2024-27132](https://github.com/advisories/GHSA-6749-m5cp-6cg7) (High)<br/>[CVE-2024-27133](https://github.com/advisories/GHSA-3v79-q7ph-j75h) (High)<br/>[CVE-2023-43472](https://github.com/advisories/GHSA-wqxf-447m-6f5f) (High)<br/>[CVE-2023-6709](https://github.com/advisories/GHSA-cxfr-5q3r-2rc2) (High)<br/>[CVE-2023-6753](https://github.com/advisories/GHSA-v945-r3rc-6fjm) (High)<br/>[CVE-2023-30172](https://github.com/advisories/GHSA-wc6j-5g83-xfm6) (High)<br/>[CVE-2023-4033](https://github.com/advisories/GHSA-ffw3-6378-cqgp) (High)<br/>[CVE-2023-6940](https://github.com/advisories/GHSA-hvc6-42vf-jhf8) (High)<br/>[CVE-2023-6909](https://github.com/advisories/GHSA-5r3q-93q3-f978) (High)<br/>[CVE-2023-6976](https://github.com/advisories/GHSA-wv8q-4f85-2p8p) (High)<br/>[CVE-2023-6568](https://github.com/advisories/GHSA-vwhf-3v6x-wff8) (Moderate)<br/>[CVE-2023-1176](https://github.com/advisories/GHSA-wp72-7hj9-5265) (Low)|
 |[networkx](https://pypi.org/project/networkx)|v2.6.3|01/24/22|Ömer Faruk Özdemir |BSD-3-Clause|N/A|
 |[nltk](https://pypi.org/project/nltk)|N/A|12/14/21|aliabid94 |Apache-2.0|N/A|
 |[numba](https://pypi.org/project/numba)|v0.55.2|07/19/22|Freddy Boulton |BSD-3-Clause|N/A|
@@ -554,7 +554,7 @@ Full tech stack [here](/techstack.md)
 |[six](https://pypi.org/project/six)|v1.16.0|01/24/22|Ömer Faruk Özdemir |MIT|N/A|
 |[spacy](https://pypi.org/project/spacy)|N/A|12/14/21|aliabid94 |MIT|N/A|
 |[sqlparse](https://pypi.org/project/sqlparse)|v0.4.2|07/19/22|Freddy Boulton |BSD-3-Clause|[CVE-2023-30608](https://github.com/advisories/GHSA-rrm6-wvj7-cwh2) (Moderate)|
-|[starlette](https://pypi.org/project/starlette)|v0.21.0|11/14/22|Freddy Boulton |BSD-3-Clause|[](https://github.com/advisories/GHSA-qj8w-rv5x-2v9h) (High)<br/>[CVE-2023-30798](https://github.com/advisories/GHSA-3qj8-93xh-pwh2) (High)<br/>[](https://github.com/advisories/GHSA-74m5-2c7w-9w3x) (Moderate)<br/>[CVE-2023-29159](https://github.com/advisories/GHSA-v5gw-mw7f-84px) (Low)|
+|[starlette](https://pypi.org/project/starlette)|v0.21.0|11/14/22|Freddy Boulton |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)<br/>[](https://github.com/advisories/GHSA-qj8w-rv5x-2v9h) (High)<br/>[CVE-2023-30798](https://github.com/advisories/GHSA-3qj8-93xh-pwh2) (High)<br/>[](https://github.com/advisories/GHSA-74m5-2c7w-9w3x) (Moderate)<br/>[CVE-2023-29159](https://github.com/advisories/GHSA-v5gw-mw7f-84px) (Low)|
 |[tabulate](https://pypi.org/project/tabulate)|v0.8.10|07/19/22|Freddy Boulton |MIT|N/A|
 |[tifffile](https://pypi.org/project/tifffile)|v2021.11.2|11/14/22|Freddy Boulton |BSD-3-Clause|N/A|
 |[tomli](https://pypi.org/project/tomli)|v2.0.1|07/19/22|Freddy Boulton |N/A|N/A|
@@ -589,7 +589,7 @@ Full tech stack [here](/techstack.md)
 |[resize-observer-polyfill](https://www.npmjs.com/resize-observer-polyfill)|v1.5.1|05/17/22|pngwn |MIT|N/A|
 |[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.1.4|07/21/22|pngwn |MIT|N/A|
 |[tslib](https://www.npmjs.com/tslib)|v2.3.1|02/22/22|pngwn |0BSD|N/A|
-|[vite](https://www.npmjs.com/vite)|v2.8.2|06/01/22|pngwn |N/A|[CVE-2023-34092](https://github.com/advisories/GHSA-353f-5xf4-qw67) (High)<br/>[CVE-2022-35204](https://github.com/advisories/GHSA-mv48-hcvh-8jj8) (Moderate)|
+|[vite](https://www.npmjs.com/vite)|v2.8.2|06/01/22|pngwn |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2023-34092](https://github.com/advisories/GHSA-353f-5xf4-qw67) (High)<br/>[CVE-2022-35204](https://github.com/advisories/GHSA-mv48-hcvh-8jj8) (Moderate)|
 
 <br/>
 <div align='center'>
