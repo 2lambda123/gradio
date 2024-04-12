@@ -69,9 +69,7 @@ entrypoints==0.4
     #   altair
     #   mlflow
 everett[ini]==3.0.0
-    # via
-    #   comet-ml
-    #   everett
+    # via comet-ml
 fastapi==0.109.1
     # via -r requirements.in
 filelock==3.7.1
@@ -109,7 +107,7 @@ huggingface-hub==0.20.1
     #   -r requirements.in
     #   tokenizers
     #   transformers
-idna==3.3
+idna==3.7
     # via
     #   anyio
     #   requests
@@ -307,9 +305,7 @@ requests-toolbelt==0.9.1
 respx==0.19.2
     # via -r requirements.in
 rfc3986[idna2008]==1.5.0
-    # via
-    #   httpx
-    #   rfc3986
+    # via httpx
 safetensors==0.4.1
     # via transformers
 scikit-image==0.19.3
