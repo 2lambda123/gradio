@@ -107,7 +107,7 @@ huggingface-hub==0.20.1
     #   -r requirements.in
     #   tokenizers
     #   transformers
-idna==3.3
+idna==3.7
     # via
     #   anyio
     #   requests
