@@ -20,7 +20,7 @@ attrs==21.4.0
     #   pytest
 backcall==0.2.0
     # via ipython
-black==22.6.0
+black==24.3.0
     # via -r requirements.in
 certifi==2022.6.15
     # via
@@ -193,8 +193,9 @@ nvidia-ml-py3==7.352.0
     # via comet-ml
 oauthlib==3.2.0
     # via databricks-cli
-packaging==21.3
+packaging==23.2
     # via
+    #   black
     #   huggingface-hub
     #   matplotlib
     #   mlflow
@@ -256,9 +257,7 @@ pygments==2.12.0
 pyjwt==2.4.0
     # via databricks-cli
 pyparsing==3.0.9
-    # via
-    #   matplotlib
-    #   packaging
+    # via matplotlib
 pyrsistent==0.18.1
     # via jsonschema
 pytest==7.1.2
