@@ -246,7 +246,7 @@ pyarrow==15.0.0
     # via mlflow
 pycodestyle==2.8.0
     # via flake8
-pydantic==1.9.1
+pydantic==1.10.13
     # via
     #   -r requirements.in
     #   fastapi
