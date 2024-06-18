@@ -394,7 +394,7 @@ typing-extensions==4.9.0
     #   pydantic
     #   starlette
     #   torch
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   dulwich
     #   requests
