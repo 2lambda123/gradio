@@ -415,7 +415,7 @@ wrapt==1.14.1
     # via comet-ml
 wurlitzer==3.0.2
     # via comet-ml
-zipp==3.8.1
+zipp==3.19.1
     # via
     #   importlib-metadata
     #   importlib-resources
