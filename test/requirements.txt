@@ -24,6 +24,10 @@ backcall==0.2.0
     # via ipython
 black==24.3.0
     # via -r requirements.in
+cachetools==5.5.0
+    # via
+    #   google-auth
+    #   mlflow-skinny
 certifi==2024.7.4
     # via
     #   dulwich
@@ -37,11 +41,11 @@ click==8.1.3
     # via
     #   black
     #   flask
-    #   mlflow
+    #   mlflow-skinny
     #   wandb
 cloudpickle==2.1.0
     # via
-    #   mlflow
+    #   mlflow-skinny
     #   shap
 comet-ml==3.31.6
     # via -r requirements.in
@@ -55,8 +59,12 @@ coverage[toml]==6.4.2
     #   pytest-cov
 cycler==0.12.1
     # via matplotlib
+databricks-sdk==0.40.0
+    # via mlflow-skinny
 decorator==5.1.1
     # via ipython
+deprecated==1.2.15
+    # via opentelemetry-api
 docker==5.0.3
     # via mlflow
 docker-pycreds==0.4.0
@@ -64,9 +72,7 @@ docker-pycreds==0.4.0
 dulwich==0.20.45
     # via comet-ml
 entrypoints==0.4
-    # via
-    #   altair
-    #   mlflow
+    # via altair
 everett[ini]==3.0.0
     # via comet-ml
 fastapi==0.109.1
@@ -87,8 +93,10 @@ gitdb==4.0.9
     # via gitpython
 gitpython==3.1.41
     # via
-    #   mlflow
+    #   mlflow-skinny
     #   wandb
+google-auth==2.37.0
+    # via databricks-sdk
 graphene==3.3
     # via mlflow
 graphql-core==3.2.3
@@ -125,7 +133,7 @@ importlib-metadata==4.2.0
     # via
     #   alembic
     #   flask
-    #   mlflow
+    #   mlflow-skinny
 importlib-resources==5.8.0
     # via
     #   alembic
@@ -171,8 +179,10 @@ matplotlib-inline==0.1.3
     # via ipython
 mccabe==0.6.1
     # via flake8
-mlflow==2.12.1
+mlflow==2.16.0
     # via -r requirements.in
+mlflow-skinny==2.16.0
+    # via mlflow
 mypy-extensions==0.4.3
     # via black
 networkx==2.6.3
@@ -198,12 +208,20 @@ numpy==1.21.6
     #   transformers
 nvidia-ml-py3==7.352.0
     # via comet-ml
+opentelemetry-api==1.16.0
+    # via
+    #   mlflow-skinny
+    #   opentelemetry-sdk
+opentelemetry-sdk==1.16.0
+    # via mlflow-skinny
+opentelemetry-semantic-conventions==0.37b0
+    # via opentelemetry-sdk
 packaging==23.2
     # via
     #   black
     #   huggingface-hub
     #   matplotlib
-    #   mlflow
+    #   mlflow-skinny
     #   pytest
     #   scikit-image
     #   shap
@@ -239,7 +257,7 @@ prompt-toolkit==3.0.30
     # via ipython
 protobuf==3.20.1
     # via
-    #   mlflow
+    #   mlflow-skinny
     #   wandb
 psutil==5.9.1
     # via wandb
@@ -249,6 +267,12 @@ py==1.11.0
     # via pytest
 pyarrow==15.0.0
     # via mlflow
+pyasn1==0.6.1
+    # via
+    #   pyasn1-modules
+    #   rsa
+pyasn1-modules==0.4.1
+    # via google-auth
 pycodestyle==2.8.0
     # via flake8
 pydantic==1.10.13
@@ -277,27 +301,24 @@ python-dateutil==2.8.2
     #   matplotlib
     #   pandas
 pytz==2022.1
-    # via
-    #   mlflow
-    #   pandas
+    # via pandas
 pywavelets==1.3.0
     # via scikit-image
 pyyaml==6.0
     # via
     #   huggingface-hub
-    #   mlflow
+    #   mlflow-skinny
     #   transformers
     #   wandb
-querystring-parser==1.2.4
-    # via mlflow
 regex==2022.7.9
     # via transformers
 requests==2.32.0
     # via
     #   comet-ml
+    #   databricks-sdk
     #   docker
     #   huggingface-hub
-    #   mlflow
+    #   mlflow-skinny
     #   requests-toolbelt
     #   transformers
     #   wandb
@@ -307,6 +328,8 @@ respx==0.19.2
     # via -r requirements.in
 rfc3986[idna2008]==1.5.0
     # via httpx
+rsa==4.9
+    # via google-auth
 safetensors==0.4.1
     # via transformers
 scikit-image==0.19.3
@@ -340,7 +363,6 @@ six==1.16.0
     #   docker-pycreds
     #   promise
     #   python-dateutil
-    #   querystring-parser
     #   wandb
 slicer==0.0.7
     # via shap
@@ -356,7 +378,7 @@ sqlalchemy==1.4.39
     #   alembic
     #   mlflow
 sqlparse==0.5.0
-    # via mlflow
+    # via mlflow-skinny
 starlette==0.35.1
     # via fastapi
 threadpoolctl==3.1.0
@@ -391,6 +413,7 @@ typing-extensions==4.9.0
     #   black
     #   fastapi
     #   huggingface-hub
+    #   opentelemetry-sdk
     #   pydantic
     #   starlette
     #   torch
@@ -412,7 +435,9 @@ websocket-client==1.3.3
 werkzeug==3.0.3
     # via flask
 wrapt==1.14.1
-    # via comet-ml
+    # via
+    #   comet-ml
+    #   deprecated
 wurlitzer==3.0.2
     # via comet-ml
 zipp==3.19.1
