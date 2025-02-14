@@ -45,7 +45,7 @@ cloudpickle==2.1.0
     #   shap
 comet-ml==3.31.6
     # via -r requirements.in
-configobj==5.0.6
+configobj==5.0.9
     # via everett
 contourpy==1.1.1
     # via matplotlib
@@ -336,7 +336,6 @@ shortuuid==1.0.9
 six==1.16.0
     # via
     #   comet-ml
-    #   configobj
     #   docker-pycreds
     #   promise
     #   python-dateutil
